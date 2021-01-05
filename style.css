@@ -1,0 +1,78 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+.name-highlite{
+    color: blue;
+}
+.highlite{
+    color: chocolate;
+}
+h1{
+    font-size: 30px;
+}
+.center{
+    text-align: center;
+}
+.half{
+    width: 40%;
+    margin-left: 7%;
+    margin-top: 5%;
+    float: left;
+}
+.button{
+    text-decoration: none;
+    font-size: 20px;
+    border: 2px;
+    padding: 5px 10px;
+    background-image: linear-gradient(140deg,blue,lightpink);
+    font-weight: 600;
+    color: navy;
+}
+.paragraph{
+    font-size: 20px;
+    color: seagreen;
+    text-align: justify;
+}
+.half img{
+    width:70%;
+    
+}
+.background{
+    background-image: url("image/header-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.back{
+    background-image: url("image/latest-work-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+section{
+    height: 700px;
+}
+.box-shadow{
+   height: 40%;
+   width: 30%;
+   box-shadow: 10px 10px 40px teal;
+   border-radius: 5px;
+   margin-top: 5%;
+   margin-left: 13%;
+   padding: 5px;
+   display: inline-block;
+    
+}
+#full-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg,green,red);
+    border-image-slice: 1;
+}
+#junior-web{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg,tomato,pink);
+    border-image-slice: 2;
+}
+.back-image{
+    background-image: url("image/exp-bg.png");
+    background-repeat: no-repeat;
+}
